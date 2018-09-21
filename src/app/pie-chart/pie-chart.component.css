@@ -1,0 +1,55 @@
+.arc text {
+    font: 10px sans-serif;
+    text-anchor: middle;
+}
+
+.arc path {
+    stroke: #fff;
+}
+
+.tooltip{
+    background-color: black;
+    opacity: .9;
+    color: white;
+    width: auto;
+    padding: 10px 20px;
+    display: none;
+    pointer-events: none;
+}
+.point{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    display: inline-block
+}
+.content{
+    display: inline-block
+}
+.piechart{
+    position: absolute
+}
+text{
+    pointer-events: none!important;
+    user-select: none!important;
+}
+g{
+    transform:scale(.95,.95);
+}
+i{
+    pointer-events: none
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 70%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
